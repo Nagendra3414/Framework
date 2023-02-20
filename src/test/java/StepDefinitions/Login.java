@@ -23,12 +23,14 @@ public class Login {
 	Login_Page lp = null;
 	HomePage hp = null;
 	
-	
+
 	
 
 	@Before(order = 2)
 	public void method1() {
 		System.out.println("I am before1 condition");
+		
+		System.out.println("GitHub");
 	}
 
 	@Before(order = 1)
