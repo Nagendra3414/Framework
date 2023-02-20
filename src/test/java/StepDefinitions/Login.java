@@ -31,6 +31,9 @@ public class Login {
 		System.out.println("I am before1 condition");
 		
 		System.out.println("GitHub");
+		
+		
+		System.out.println("Second user changes");
 	}
 
 	@Before(order = 1)
