@@ -53,6 +53,8 @@ public class Login {
 		driver.get("https://www.saucedemo.com/");
 
 		System.out.println("Launch the Url");
+		
+		System.out.println("Added another line");
 	}
 
 	@When("^homepage should open$")
